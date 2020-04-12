@@ -11,9 +11,7 @@ export class Satellite {
         this.orbitType = orbitType;
         this.operational = operational;
     }
-    shouldShowWarning () {
-      return true;
-        console.log("helloooooooo");
+    shouldShowWarning() {
         if (this.type.toLowerCase() === "space debris"){
           return true;
       } 
